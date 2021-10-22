@@ -1,0 +1,141 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+
+<div class="row"> <!-- first table from Row.cs and rows.json-->
+
+    <div class="col-12 col-md-6 text-primary">
+     
+        <h2>Quick Analysis</h2>
+    </div>
+
+    <div class="col-md-6">
+        <h2>System Status</h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <h4>Weighted Running Averages</h4>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="table-responsive">
+
+            <table class="table table-bordered table-striped table-hover table-sm">
+                <thead>
+                    <tr>
+                        <th>Time Windows</th>
+                        <th>1m</th>
+                        <th>5m</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(var row in Model.Rows)
+            {
+                <tr>
+                    <td>@row.Time</td>
+                    <td>@row.five_m</td>
+                    <td>@row.one_m</td>   
+                </tr>
+            }
+
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+
+
+    <div class="col-md-6">
+       
+            <table class="table table-bordered table-striped table-hover table-sm">
+                <!-- second table from statuses.json-->
+                <thead>
+                    <tr>
+                        <th colspan="2">Analyzer State</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var x in Model.Analyzers)
+                    {
+                        <tr>
+                            <td>@x.Id</td>
+                            <td>@x.Data</td>
+                        </tr>
+                    }
+
+                </tbody>
+                <thead>
+                    <tr>
+                        <th colspan="2">Detector1</th> <!--header-->
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var y in Model.Detectors)
+                    {
+                        <tr>
+                            <td>@y.Id</td>
+                            <td>@y.Data</td>
+                        </tr>
+                    }
+                </tbody>
+                <thead>
+                    <tr>
+                        <th colspan="2">PLC Subsystem Status</th> <!--header-->
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var m in Model.Plcs)
+                    {
+                        <tr>
+                            <td>@m.Id</td>
+                            <td>@m.Data</td>
+                        </tr>
+                    }
+
+                </tbody>
+
+                <thead>
+                    <tr>
+                        <th colspan="2">System Parameters</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var n in Model.Params)
+                    {
+                        <tr>
+                            <td>@n.Id</td>
+                            <td>@n.Data</td>
+                        </tr>
+                    }
+                </tbody>
+
+                <thead>
+                    <tr>
+                        <th colspan="2">License Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var t in Model.Licenses)
+                    {
+                        <tr>
+                            <td>@t.Id</td>
+                            <td>@t.Data</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>

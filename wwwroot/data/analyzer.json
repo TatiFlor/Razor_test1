@@ -1,0 +1,22 @@
+[
+  {
+    "id": "Analyzer Time(Local)",
+    "data": "November"
+  },
+  {
+    "id": "Analyzer Time(GMT)",
+    "data": "October"
+  },
+  {
+    "id": "Detectors",
+    "data": "1"
+  },
+  {
+    "id": "Tag Sample State",
+    "data": "Idle"
+  },
+  {
+    "id": "Current Analysis",
+    "data": "OK"
+  }
+]

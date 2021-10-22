@@ -1,0 +1,22 @@
+[
+  {
+    "id": "RAID Summary",
+    "data": "u0: OK"
+  },
+  {
+    "id": "Disk Usage",
+    "data": "data"
+  },
+  {
+    "id": "PLCD State",
+    "data": "Current Status File"
+  },
+  {
+    "id": "PHP Version",
+    "data": "data"
+  },
+  {
+    "id": "OS Version",
+    "data": "data"
+  }
+]

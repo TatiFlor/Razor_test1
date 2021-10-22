@@ -1,0 +1,172 @@
+[
+  {
+    "id": "Analyzer Time(Local)", 
+    "data": "November"
+  },
+  {
+    "id": "Analyzer Time(GMT)", 
+    "data": "October"
+  },
+  {
+    "id": "Detectors", 
+    "data": "1"
+  },
+  {
+    "id": "Tag Sample State", 
+    "data": "Idle"
+  },
+  {
+    "id": "Current Analysis", 
+    "data": "OK"
+  },
+ 
+  {
+    "id": "PMT Control Mode", 
+    "data": "fine_track"
+  },
+  {
+    "id": "PMT Control State", 
+    "data": "LOCKED"
+  },
+  {
+    "id": "Detector ID", 
+    "data": "datad1"
+  },
+  {
+    "id": "Daemon Running", 
+    "data": "Yes"
+  },
+  {
+    "id": "Use Results", 
+    "data": "Yes"
+  },
+  {
+    "id": "Analysis Response",
+    "data": "6192RSP"
+  },
+  {
+    "id": "Alignment Response", 
+    "data": "6192RSP"
+  },
+  {
+    "id": "Analyze Cmd", 
+    "data": "data string"
+  },
+  {
+    "id": "Detector Temp", 
+    "data": "40.0C"
+  },
+  {
+    "id": "Count Rate(raw)", 
+    "data": "1,864,800 cpm"
+  },
+  {
+    "id": "Count Rate(aligned)", 
+    "data": "1,889,740 cpm"
+  },
+  {
+    "id": "Aligned", 
+    "data": "Aligned"
+  },
+  {
+    "id": "Good Data Secs", 
+    "data": "60"
+  },
+  {
+    "id": "H Peak FWHM", 
+    "data": "5.35 %"
+  },
+  {
+    "id": "H Peal Raw Channel", 
+    "data": "97.288"
+  },
+  {
+    "id": "Alignment Gain", 
+    "data": "1.0012"
+  },
+  {
+    "id": "Alignment Offset", 
+    "data": "2.0979"
+  },
+  {
+    "id": "Alignment ChiSqr", 
+    "data": "0.832"
+  },
+  {
+    "id": "Analysis ChiSqr",
+    "data": "0.907"
+  },
+  {
+    "id": "PMT Voltage Cmd", 
+    "data": "691.000 V"
+  },
+  {
+    "id": "PMT Voltage Readback", 
+    "data": "656 V"
+  },
+  {
+    "id": "Coarse DAC", 
+    "data": "1,076"
+  },
+  {
+    "id": "Fine DAC", 
+    "data": "1,846"
+  },
+  {
+    "id": "PLCD Installed", 
+    "data": "Yes"
+  },
+  {
+    "id": "PLCD Running", 
+    "data": "Yes"
+  },
+  {
+    "id": "PLCD State",
+    "data": "Current Status File"
+  },
+  {
+    "id": "Belt Speed", 
+    "data": "0 fpm"
+  },
+  {
+    "id": "Mass Flow", 
+    "data": "0 tph"
+  },
+  {
+    "id": "RAID Summary",
+    "data": "u0: OK"
+  },
+  {
+    "id": "Disk Usage",
+    "data": "data"
+  },
+  {
+    "id": "PLCD State",
+    "data": "Current Status File"
+  },
+  {
+    "id": "PHP Version",
+    "data": "data"
+  },
+  {
+    "id": "OS Version",
+    "data": "data"
+  },
+  {
+    "id": "License File",
+    "data": "u0: ok"
+  },
+  {
+    "id": "End Date",
+    "data": "data"
+  },
+  {
+    "id": "Days Remaining",
+    "data": "10000"
+  },
+  {
+    "id": "Server Type",
+    "data": "development"
+  }
+
+]

@@ -1,0 +1,23 @@
+[
+  
+  {
+    "id": "PLCD Installed",
+    "data": "Yes"
+  },
+  {
+    "id": "PLCD Running",
+    "data": "Yes"
+  },
+  {
+    "id": "PLCD State",
+    "data": "Current Status File"
+  },
+  {
+    "id": "Belt Speed",
+    "data": "0 fpm"
+  },
+  {
+    "id": "Mass Flow",
+    "data": "0 tph"
+  }
+]
